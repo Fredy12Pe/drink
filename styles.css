@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #4a148c, #ff6f00);
+    color: #fff;
+}
+
+.countdown-container {
+    text-align: center;
+}
+
+#countdown {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.time-unit {
+    margin: 0 10px;
+    font-size: 2em;
+}
+
+.time-unit span {
+    display: block;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
